@@ -1,0 +1,7 @@
+mkdir -p docker src/grafana/dashboards src/data .github/workflows
+touch README.md requirements.txt .gitignore
+touch src/main.py src/fine_tune.py src/evaluate.py src/governance.py src/image_api.py
+touch docker/Dockerfile.text-model docker/Dockerfile.image-model docker/Dockerfile.serving
+touch docker-compose.yml .github/workflows/tests.yml .github/workflows/deploy.yml
+touch grafana/dashboards/ia-dashboard.json
+
